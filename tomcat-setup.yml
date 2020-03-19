@@ -4,6 +4,6 @@
   become: yes
   become_method: sudo
   vars:
-    tomcat_ver: v9.0.33
+    tomcat_ver: 9.0.33
   roles:
     - tomcat
