@@ -5,9 +5,9 @@
   become_method: sudo
   vars:
     tomcat_ver: 9.0.33
-        ui_manager_user: passedasvar
-        ui_manager_pass: passedasvar
-        ui_admin_username: passedasvar
-        ui_admin_pass: passedasvar
+    ui_manager_user: passedasvar
+    ui_manager_pass: passedasvar
+    ui_admin_username: passedasvar
+    ui_admin_pass: passedasvar
   roles:
     - tomcat
