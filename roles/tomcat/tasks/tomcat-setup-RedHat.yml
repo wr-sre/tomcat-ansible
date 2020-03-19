@@ -61,13 +61,6 @@
     enabled: yes
   when: ansible_service_mgr == "systemd"
 
-- name: Start and enable firewalld
-  service:
-    name: firewalld
-    state: started
-    enabled: yes
-  when: ansible_service_mgr == "systemd"
-
 - name: Set UI access credentials
   template:
     src: tomcat-users.xml.j2
