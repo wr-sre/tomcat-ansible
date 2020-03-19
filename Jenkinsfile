@@ -1,4 +1,4 @@
-node ('terraform_node'){
+node ('ansible'){
 
 try {
     stage('checkout') {
