@@ -21,9 +21,9 @@ This repo contains tasks to:
 - Create a Jenkinspipe with this repo as SCM
 - In Jenkins job, following variables are required to run this successfully.
 
-USER : username with passwordless sudo access
-HOSTS: host IP where tomcat needs to be installed
-UI_MANAGER_USER: username for tomcat management
-UI_MANAGER_PASS: password for tomcat management
-UI_ADMIN_USERNAME: tomcat admin username
-UI_ADMIN_PASS: tomcat admin password
+ - USER : username with passwordless sudo access
+ - HOSTS: host IP where tomcat needs to be installed
+ - UI_MANAGER_USER: username for tomcat management
+ - UI_MANAGER_PASS: password for tomcat management
+ - UI_ADMIN_USERNAME: tomcat admin username
+ - UI_ADMIN_PASS: tomcat admin password
