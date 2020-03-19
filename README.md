@@ -27,3 +27,7 @@ This repo contains tasks to:
  - UI_MANAGER_PASS: password for tomcat management
  - UI_ADMIN_USERNAME: tomcat admin username
  - UI_ADMIN_PASS: tomcat admin password
+ 
+ ## Jenkins worker
+ - Please update the node label in Jenkinsfile as per your environment
+ 
