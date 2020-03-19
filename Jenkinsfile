@@ -1,4 +1,4 @@
-node {
+node ('terraform_node'){
 
 try {
     stage('checkout') {
