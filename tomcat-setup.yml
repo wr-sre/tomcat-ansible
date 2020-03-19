@@ -1,0 +1,9 @@
+---
+- name: Tomcat deployment playbook
+  hosts: "{{ hosts }}"
+  become: yes
+  become_method: sudo
+  vars:
+    tomcat_ver: 8.5.53
+  roles:
+    - tomcat
